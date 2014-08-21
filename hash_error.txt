@@ -1,0 +1,1 @@
+It means the code contains an opening bracket "{" but not a closing one, "}".
