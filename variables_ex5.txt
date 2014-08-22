@@ -1,0 +1,7 @@
+In the first program, x prints 3.
+The second gets an error because x is undefined. 
+This is because x is defined in the outer block in the first
+example and in the inner block in the second and is displayed
+in the outer block in both instances. Outer block variables 
+are seen in the inner block but inner block variables are  
+not seen in the outer block. 
