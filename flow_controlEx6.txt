@@ -1,0 +1,27 @@
+# flow_controlEx6.rb
+
+def equal_to_four(x)
+  if x == 4
+    puts "yup"
+  else
+    puts "nope"
+  end
+
+# modification follows...
+
+def equal_to_four(x)
+  if x == 4
+    puts "yup"
+  else
+    puts "nope"
+  end
+end # added this end statement
+  
+equal_to_four(5)
+
+Answer: the method did not contain an "end" statement. There was only one end and that
+would track back to the if statement. 
+
+
+  
+  
