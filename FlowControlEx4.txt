@@ -1,0 +1,40 @@
+1. FALSE
+
+2. Did you get it right?
+
+3. ALRIGHT NOW!
+
+irb(main):002:0> '4' == 4 ? puts("TRUE") : puts("FALSE")
+FALSE
+=> nil
+irb(main):003:0> x = 2
+=> 2
+irb(main):004:0> if ((x * 3) / 2) == (4 + 4 - x - 3)
+irb(main):005:1> puts "Did you get it right?"
+irb(main):006:1> else
+irb(main):007:1* puts "Did you?"
+irb(main):008:1> end
+Did you get it right?
+=> nil
+irb(main):009:0> y = 9
+=> 9
+irb(main):010:0> x = 10
+=> 10
+irb(main):011:0> if (x + 1) <= (y)
+irb(main):012:1> puts "Alright."
+irb(main):013:1> elsif (x + 1) >= (y)
+irb(main):014:1> puts "Alright now!"
+irb(main):015:1> elsif (y + 1) == x
+irb(main):016:1> puts "ALRIGHT NOW!"
+irb(main):017:1> else
+irb(main):018:1* puts "Alrighty!"
+irb(main):019:1> end
+Alright now!
+=> nil
+irb(main):020:0>
+
+# 1 and 2 are correct
+# 3 was wrong
+
+
+
