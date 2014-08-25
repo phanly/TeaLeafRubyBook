@@ -1,0 +1,7 @@
+irb(main):001:0> x = [1, 2, 3, 4, 5]
+=> [1, 2, 3, 4, 5]
+irb(main):002:0> x.each do |a|
+irb(main):003:1* a + 1
+irb(main):004:1> end
+=> [1, 2, 3, 4, 5]
+irb(main):005:0>
